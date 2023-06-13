@@ -1,3 +1,4 @@
+import 'package:demoprovider/screen/count_example.dart';
 import 'package:demoprovider/stateful_example.dart';
 import 'package:demoprovider/stateless.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:Staful_Example(),
+      home:Count_Example(),
     );
   }
 }
